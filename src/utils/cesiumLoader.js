@@ -2,8 +2,8 @@
  * Cesium 统一导入文件
  * 避免多个文件重复导入 Cesium，减少打包体积
  */
-import * as Cesium from 'cesium'
-
+// import * as Cesium from 'cesium'
+let Cesium = window.Cesium
 // 导出 Cesium 实例，供其他模块使用
 export default Cesium
 
