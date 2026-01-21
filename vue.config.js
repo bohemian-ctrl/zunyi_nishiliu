@@ -4,7 +4,7 @@ const webpack = require('webpack')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = defineConfig({
-  publicPath:'./',
+  publicPath:'/zunyi_nishiliu/dist/',
   lintOnSave: false,
   transpileDependencies: true,
   configureWebpack: {
