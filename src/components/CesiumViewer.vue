@@ -501,7 +501,7 @@ export default {
         console.log('开始加载风险区数据: /data/doc.geojson')
         
         // 使用RiskDataLoader加载数据，传入进度回调
-        const entities = await this.riskDataLoader.loadFromGeoJSON('/data/doc.geojson', (loadedEntities) => {
+        const entities = await this.riskDataLoader.loadFromGeoJSON('/zunyi_nishiliu/dist/data/doc.geojson', (loadedEntities) => {
           // 检查组件是否还存在
           if (!this.viewer || !this.$el) {
             console.warn('组件已销毁，取消数据加载回调')
