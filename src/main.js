@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-window.CESIUM_BASE_URL = '/zunyi_nishiliu/cesium/'
+window.CESIUM_BASE_URL = '/zunyi_nishiliu/dist/cesium/'
 new Vue({
   router,
   store,
