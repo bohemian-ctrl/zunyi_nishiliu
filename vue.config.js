@@ -15,12 +15,13 @@ module.exports = defineConfig({
     },
     plugins: [
       new webpack.DefinePlugin({
-        CESIUM_BASE_URL: JSON.stringify('/cesium/')
+        CESIUM_BASE_URL: JSON.stringify('/zunyi_nishiliu/dist/cesium/')
       }),
       // 复制Cesium静态资源
       new CopyWebpackPlugin({
         patterns: [
           {
+
             from: path.resolve(__dirname, 'node_modules/cesium/Build/Cesium/Workers'),
             to: 'cesium/Workers'
           },
